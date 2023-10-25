@@ -1,0 +1,42 @@
+% Feature names can be found at Table 2 of the following paper:
+% Collective Opinion Spam Detection: Bridging Review Networks and Metadata
+
+% Please ask the authors of the above paper for the feature generating code
+
+% 0-14 review features
+0 Rank
+1 RD
+2 EXT
+3 DEV
+4 ETF
+5 ISR
+6 PCW
+7 PC
+8 L
+9 PP1
+10 RES
+11 SW
+12 OW
+13 DL_u
+14 DL_b
+
+% 15-24 user features
+15 MNR
+16 PR
+17 NR
+18 avgRD
+19 WRD
+20 BST
+21 ERD
+22 ETG
+23 RL
+
+% 24-31 product features
+24 MNR
+25 PR
+26 NR
+27 avgRD
+28 WRD
+29 ERD
+30 ETG
+31 RL
