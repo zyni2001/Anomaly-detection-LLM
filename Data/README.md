@@ -3,7 +3,6 @@
 ## Data generation
 To generate the data:
 ```bash
-cd Data/
 python helper.py
 ```
 
