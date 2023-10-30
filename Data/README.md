@@ -1,6 +1,7 @@
 # Anomaly-detection-LLM
 
 ## Data
+
 ### Data generation
 To generate the data:
 ```bash
