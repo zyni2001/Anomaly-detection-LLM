@@ -39,3 +39,5 @@ with open("results.txt", "w") as f:
 
     f.write("\nChat completion results:\n")
     f.write(str(chat_completion))
+
+print("Results saved to results.txt")

@@ -29,3 +29,23 @@ Data generated:
 
 - `review text` - the review content.
 
+## Deploy vllm
+
+### Install vllm
+```bash
+cd vllm/
+pip install -e .
+```
+
+### Quick start
+Start the API server:
+```bash
+cd ../
+python -m vllm.entrypoints.openai.api_server --model facebook/opt-125m 
+```
+
+Query the model in another shell:
+```bash
+python examples/openai_chatcompletion_client.py 
+```
+Results will be saved in `results.txt`.
