@@ -1,6 +1,8 @@
 # Anomaly-detection-LLM
 
-## Data generation
+## Data
+
+### Data generation
 To generate the data:
 ```bash
 cd Data/
@@ -17,7 +19,7 @@ Data generated:
 ‘PRUNED_DATA_prod-ID_usr-ID_rating_label_review.json’
 ```
 
-## Data format:
+### Data format:
 `{prod_ID: user_ID, user_label, review_label, rating score, review text}`
 
 - `review_label` - Created by Yelp company. For label value 1 means non-spam review and -1 means spam review. There are 13.23% spam reviews in total in the unpruned data.
