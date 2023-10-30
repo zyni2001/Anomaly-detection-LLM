@@ -1,7 +1,7 @@
 import copy as cp
 import gzip
 import json
-
+# from torch_geometric.nn import DiffPool
 
 def read_graph_data(metadata_filename, graph_data_structure='up'):
 	""" Read the user-review-product graph from file. Can output the graph in different formats
