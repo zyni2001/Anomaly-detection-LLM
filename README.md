@@ -42,6 +42,7 @@ pip install -e .
 huggingface-cli login
 ```
 There will be a token needed. Copy and paste `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` to the terminal.
+
 There will appear "Add token as git credential? (Y/n)". Enter `Y`.
 
 ### Quick start
