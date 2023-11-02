@@ -37,11 +37,18 @@ cd vllm/
 pip install -e .
 ```
 
+### Login to HuggingFace
+```bash
+huggingface-cli login
+```
+There will be a token needed. Copy and paste `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` to the terminal.
+There will appear "Add token as git credential? (Y/n)". Enter `Y`.
+
 ### Quick start
 Start the API server:
 ```bash
 cd ../
-python -m vllm.entrypoints.openai.api_server --model facebook/opt-125m 
+python -m vllm.entrypoints.openai.api_server --model meta-llama/Llama-2-7b-chat-hf
 ```
 
 Query the model in another shell:

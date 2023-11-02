@@ -1,5 +1,8 @@
 import openai
 
+from huggingface_hub import login
+login(token = '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', add_to_git_credential=True)
+
 # Modify OpenAI's API key and API base to use vLLM's API server.
 openai.api_key = "EMPTY"
 openai.api_base = "http://localhost:8000/v1"
