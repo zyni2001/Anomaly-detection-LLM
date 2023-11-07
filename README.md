@@ -57,3 +57,9 @@ Query the model in another shell:
 python examples/openai_chatcompletion_client.py 
 ```
 Results will be saved in `results.txt`.
+
+## Prompt for OD
+
+```bash
+python prompt.py
+```
