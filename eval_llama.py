@@ -43,22 +43,22 @@ def count_data(file_path):
                 ground_truths += [0 if list(gt.values())[0] == 1 else 1 for gt in ground_truth]
 
                 for i in range(1, len(ground_truth)+1):
-                    # if f"Review {i}" in output:
-                    #     detected_outliers_count += 1
-                    #     ground_truth_probs.append(outlier_confidence_scores_type[0])
-                    #     # Determine if the prediction is correct
-                    #     if list(ground_truth[i - 1].values())[0] == -1:
-                    #         correct_outlier_predictions += 1
-                    # else:
-                    #     ground_truth_probs.append(outlier_confidence_scores_type[1])
-
-                    # Test: Assume all detected as ground truth
-                    if list(ground_truth[i - 1].values())[0] == -1:
+                    if f"Review {i}" in output:
                         detected_outliers_count += 1
-                        correct_outlier_predictions += 1
-                        ground_truth_probs.append(1)
+                        ground_truth_probs.append(outlier_confidence_scores_type[0])
+                        # Determine if the prediction is correct
+                        if list(ground_truth[i - 1].values())[0] == -1:
+                            correct_outlier_predictions += 1
                     else:
-                        ground_truth_probs.append(0)
+                        ground_truth_probs.append(outlier_confidence_scores_type[1])
+
+                    # # Test: Assume all detected as ground truth
+                    # if list(ground_truth[i - 1].values())[0] == -1:
+                    #     detected_outliers_count += 1
+                    #     correct_outlier_predictions += 1
+                    #     ground_truth_probs.append(1)
+                    # else:
+                    #     ground_truth_probs.append(0)
 
 
     return (
