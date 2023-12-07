@@ -1,0 +1,15 @@
+TP: 1075
+FP: 6053
+TN: 2454
+FN: 409
+F1 Score: 0.2497
+
+pr_thresholds: 0.3000      precisions: 0.1485      recalls: 1.0000    
+pr_thresholds: 0.9000      precisions: 0.1508      recalls: 0.7244    
+average_precision_score: 0.1502
+
+roc_thresholds: inf         fpr: 0.0000      tpr: 0.0000    
+roc_thresholds: 0.9000      fpr: 0.7115      tpr: 0.7244    
+roc_thresholds: 0.3000      fpr: 1.0000      tpr: 1.0000    
+roc_auc_score: 0.5064
+

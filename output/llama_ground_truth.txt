@@ -1,10 +1,10 @@
-TP: 2671
+TP: 1484
 FP: 0
-TN: 15711
+TN: 8507
 FN: 0
 F1 Score: 1.0000
 
-pr_thresholds: 0.0000      precisions: 0.1453      recalls: 1.0000    
+pr_thresholds: 0.0000      precisions: 0.1485      recalls: 1.0000    
 pr_thresholds: 1.0000      precisions: 1.0000      recalls: 1.0000    
 average_precision_score: 1.0000
 

@@ -2,6 +2,7 @@ TP: 563
 FP: 2452
 TN: 13259
 FN: 2108
+F1 Score: 0.1980
 
 pr_thresholds: 0.3000      precisions: 0.1453      recalls: 1.0000    
 pr_thresholds: 0.6000      precisions: 0.1482      recalls: 0.2860    

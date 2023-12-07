@@ -7,30 +7,11 @@ from matplotlib import pyplot as plt
 import argparse
 
 
-def get_confidence(input_str, review_id):
-    # Only the part of the string after "confidence for outlier"
-    start_index = input_str.find("confidence for outlier:")
-    relevant_part = input_str[start_index:]
-
-    pattern = f"review{review_id}"
-    regex = r"\{" + pattern + r"\}\((.*?)\)"
-
-    # "Confidence for outlier part", note index is 0 not 1.
-    line = relevant_part.split("\n")[0]
-
-    match = re.search(regex, line)
-    if match:
-        confidence = match.group(1)
-        return confidence
-
-
-def count_data(file_path, medium_type):
+def count_data(file_path):
     """_summary_
 
     Args:
         file_path (str): json file path
-        model_name (str): gpt-3.5-turbo or llamas
-        medium_type (int): True if MEDIUM as an outlier.
 
     Returns:
         _type_: _description_
@@ -41,10 +22,8 @@ def count_data(file_path, medium_type):
     correct_outlier_predictions = 0 # True Positives
     ground_truths = [] # 1 if outlier, 0 if not outlier
     ground_truth_probs = []
-    
-    # Outlier Types
-    outlier_types = ["HIGH"] + ["MEDIUM"] if medium_type else ["HIGH"]
-    outlier_confidence_scores_type = [0.9, 0.6, 0.3]
+
+    outlier_confidence_scores_type = [0.9, 0.3]
 
     with open(file_path, "r") as file:
         data = json.load(file)
@@ -64,24 +43,16 @@ def count_data(file_path, medium_type):
                 ground_truths += [0 if list(gt.values())[0] == 1 else 1 for gt in ground_truth]
 
                 for i in range(1, len(ground_truth)+1):
-                    # confidence = get_confidence(output, i)
-                    # if confidence == "HIGH":
-                    #     outlier_confidence_score = outlier_confidence_scores_type[0]
-                    # elif confidence == "MEDIUM":
-                    #     outlier_confidence_score = outlier_confidence_scores_type[1]
-                    # else:
-                    #     outlier_confidence_score = outlier_confidence_scores_type[2]
-                    # ground_truth_probs.append(outlier_confidence_score)
-
-                    # # Detected as outlier
-                    # if f"review{i}" in output.split("\n")[0] and confidence in outlier_types:
+                    # if f"Review {i}" in output:
                     #     detected_outliers_count += 1
-
-                    #     # If the prediction is correct, add ONE to the correct_outlier_predictions counter
+                    #     ground_truth_probs.append(outlier_confidence_scores_type[0])
+                    #     # Determine if the prediction is correct
                     #     if list(ground_truth[i - 1].values())[0] == -1:
                     #         correct_outlier_predictions += 1
+                    # else:
+                    #     ground_truth_probs.append(outlier_confidence_scores_type[1])
 
-                    # Test: All detected as ground truth
+                    # Test: Assume all detected as ground truth
                     if list(ground_truth[i - 1].values())[0] == -1:
                         detected_outliers_count += 1
                         correct_outlier_predictions += 1
@@ -120,7 +91,7 @@ def main(args):
     ground_truth_probs = []
 
     for file_path in file_paths:
-        total_reviews, total_outliers, detected_outliers, correct_predictions, truths, probs = count_data(file_path, args.medium_type)
+        total_reviews, total_outliers, detected_outliers, correct_predictions, truths, probs = count_data(file_path)
         total_reviews_count += total_reviews
         total_outliers_count += total_outliers
         detected_outliers_count += detected_outliers
@@ -132,11 +103,13 @@ def main(args):
     false_positives = detected_outliers_count - correct_outlier_predictions
     false_negatives = total_outliers_count - correct_outlier_predictions
     true_negatives = total_reviews_count - total_outliers_count - false_positives
+    f1_score = 2 * true_positives / (2 * true_positives + false_positives + false_negatives)
 
     result_text += f'TP: {true_positives}\n'
     result_text += f'FP: {false_positives}\n'
     result_text += f'TN: {true_negatives}\n'
-    result_text += f'FN: {false_negatives}\n\n'
+    result_text += f'FN: {false_negatives}\n'
+    result_text += f'F1 Score: {f1_score:.4f}\n\n'
 
     # Precision-Recall curve & AP score
     precisions, recalls, pr_thresholds = precision_recall_curve(ground_truths, ground_truth_probs)
@@ -155,7 +128,7 @@ def main(args):
 
     # Output results
     output_path = './output'
-    with open(os.path.join(output_path, f'{model_name}_medium_{int(args.medium_type)}.txt'), 'w') as f:
+    with open(os.path.join(output_path, f'{model_name}.txt'), 'w') as f:
         f.write(result_text)
     print(result_text)
 
@@ -165,7 +138,7 @@ def main(args):
     # Precision-Recall Curve
     plt.subplot(1, 2, 1)
     plt.plot(recalls, precisions, color='blue', label=f'P-R Curve (AP = {ap_score:.4f})')
-    plt.scatter(recalls, precisions, c=pr_thresholds)
+    # plt.scatter(recalls, precisions, c=pr_thresholds)
     # plt.colorbar(label='P-R Threshold')
     # annotate thresholds text above the points
     for i, value in enumerate(pr_thresholds):
@@ -201,13 +174,12 @@ def main(args):
 
     # plt.tight_layout()
     # plt.show()
-    plt.savefig(os.path.join(output_path, f'{model_name}_medium_{int(args.medium_type)}.png'))
+    plt.savefig(os.path.join(output_path, f'{model_name}.png'))
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='LLMs for Anomaly Detection Evaluation')
-    parser.add_argument('--model', default='gpt', type=str, help='Model name') # 'gpt', 'llama'
-    parser.add_argument('--medium_type', default=False, type=bool, help='Evaluation metric') # True if MEDIUM as an outlier
+    parser.add_argument('--model', default='llama', type=str, help='Model name') # 'gpt', 'llama'
 
     args = parser.parse_args()
 
