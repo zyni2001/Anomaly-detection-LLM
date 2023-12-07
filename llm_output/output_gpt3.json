@@ -1,0 +1,4919 @@
+[
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_3"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews in this cluster have consistent ratings and provide relevant information about the hotel experience.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(MEDIUM), {review2}(MEDIUM), {review3}(HIGH)\nreasons:\n- review1: Despite praising the hotel's style and location, the reviewer criticizes the poor customer service and cleanliness issues. This inconsistency between positive and negative aspects makes it an outlier.\n- review2: The reviewer mentions being bored by the hotel and prefers staying at another hotel next time. This negative sentiment contradicts the positive aspects mentioned earlier, making it an outlier.\n- review3: The reviewer highlights the ongoing construction noise and lackluster service. These negative experiences deviate from the typical expectations of a boutique hotel, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(MEDIUM)\nreasons:\n- review2: This review provides a positive overall experience of the hotel, highlighting the location, room service, and amenities. However, it gives a lower rating of 4 stars, which is inconsistent with the positive feedback provided. This deviation from the norm makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(MEDIUM)\nreasons:\n- review1: The reviewer expresses dissatisfaction with the hotel, mentioning small rooms, high charges, and negative experiences with room service and noise. However, the rating of 2.0 is relatively low compared to the severity of the complaints, suggesting a potential inconsistency or outlier.\n- review2: This review contradicts the negative reviews about Hotel Felix and praises the hotel for its eco-friendly features, friendly staff, and pleasant atmosphere. The positive tone and high rating of 5.0 make it stand out from the other reviews, indicating a potential outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review uses highly poetic and exaggerated language to describe the experience at the hotel. The content focuses more on the emotional and philosophical aspects rather than providing objective feedback on the hotel's amenities or service quality. This unconventional and exaggerated style makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(MEDIUM)\nreasons:\n- review3: This review provides a detailed account of the reviewer's experience and highlights both advantages and disadvantages of the hotel. However, the rating score of 3.0 is inconsistent with the generally positive tone of the review. The reviewer mentions several positive aspects, such as the eco-friendly and modern design, comfortable bed, and free wifi. These positive aspects, along with the detailed description of the amenities, suggest that the reviewer had a generally positive experience. Therefore, the rating score of 3.0 is an outlier in this context.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_10"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_11"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_12"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_13"
+    },
+    {
+        "output": "There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "56_14"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_15"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_16"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "56_17"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "56_18"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "25_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "25_2"
+    },
+    {
+        "output": "Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(MEDIUM), {review3}(MEDIUM)\nreasons:\n- review2: The reviewer expresses disappointment with several aspects of the hotel, such as the lack of communication about happy hour, issues with the TV, expensive charges for amenities, and the absence of a microwave. These negative experiences and expectations not being met contribute to this review being an outlier compared to others with higher ratings.\n- review3: The reviewer compares the hotel to casino hotels in Biloxi, MS, which suggests a different standard of quality and ambiance. The mention of staff not offering to bring bags to the rooms and the comparison to other hotels' breakfasts also indicates a lower level of service and amenities. These factors make this review stand out from others with higher ratings.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "25_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: N/A\n\nAll the reviews in this cluster have high ratings and positive comments about the hotel. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "25_4"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews in this cluster have consistent ratings and positive comments about the hotel's cleanliness, comfort, staff, location, and amenities.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "25_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "25_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "25_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "25_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "25_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "25_10"
+    },
+    {
+        "output": "Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: The reviewer highlights several negative experiences, such as the printer not working, poor wifi, and stale breakfast. These issues significantly impact the overall experience, making this review an outlier compared to the other positive reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "25_11"
+    },
+    {
+        "output": "There are no outlier reviews in the given list. All the reviews in the list are consistent with a high rating score and do not deviate from the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "25_12"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews in this cluster have consistent ratings and positive comments about the hotel.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "13_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review describes a severe issue with bedbugs and the hotel's management's response. The low rating and negative experience make it an outlier compared to the other positive reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "13_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "13_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "13_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as an outlier because it contradicts the overall positive sentiment of the other reviews. While the reviewer acknowledges the good service, staff, and location, they heavily criticize the room quality, ventilation, and value for money. This negative perspective deviates from the majority of reviews, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "13_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            }
+        ],
+        "ID": "13_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "7_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "7_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "7_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: All the reviews in this cluster have ratings that are consistent with the content of the reviews. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "7_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it provides a mix of positive and negative comments, resulting in a low rating. The reviewer mentions liking certain aspects of the hotel, such as the decor and amenities like pineapple stools and saltwater taffy. However, they also express dissatisfaction with various aspects, including the room size, parking price, and lack of coffee in the lobby. This conflicting feedback and low rating make it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "7_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: The reviewer expresses frustration with the receptionist's inability to answer their question about a neighborhood rate. The negative experience with the staff and the perception of unhelpfulness contribute to this review being an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "7_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(HIGH)\nreasons:\n- review1: Despite mentioning several positive aspects of the hotel, such as the good location, cute decor, and comfortable bed, the review still awards a low rating of 3 stars. This is unusual because a 3-star rating typically implies an average or satisfactory experience, making this review inconsistent with the positive aspects mentioned.\n- review2: The reviewer expresses dissatisfaction with the staff's behavior and rude treatment, as well as issues with parking and the malfunctioning elevator. These negative experiences, combined with the low rating of 1 star, make this review an outlier compared to the positive aspects mentioned in other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "7_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review stands out as it provides a highly negative assessment of the hotel's service and facilities. The reviewer claims it is the worst service they have ever experienced, which is inconsistent with the high rating given. The strong negative sentiment and the comparison to a nearby hotel further highlight its outlier status.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(MEDIUM), {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review1: This review provides very limited and negative feedback, focusing on small rooms, an old hotel, and a useless doorman. The low rating is consistent with the negative comments, but the lack of specific details or elaboration makes it an outlier compared to other reviews.\n- review2: The reviewer recounts a specific incident of theft during their stay, which is a significant deviation from the typical hotel review. The negative experience described, along with the lack of resolution or compensation from the hotel, makes this review stand out.\n- review3: Despite acknowledging the good service received, the reviewer expresses disappointment with the room's condition and outdated decor. This mixed review, with positive service but negative room experience, deviates from the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_3"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review2: The reviewer expresses dissatisfaction with various aspects of the hotel, such as the small room, lack of space in the bathroom, poor view, uncomfortable bed, and snooty staff. This negative feedback, combined with the low rating, makes it an outlier compared to other reviews that may have highlighted positive aspects.\n- review3: The reviewer strongly criticizes the service and pricing of the hotel, expressing disbelief that people continue to be deceived by it. The negative tone and the mention of a disappointing event (the Palm Court Oscar party) contribute to this review being an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(MEDIUM)\nreasons:\n- review1: The reviewer primarily focuses on the negative experience with the desk staff, specifically their lack of assistance after a theft incident. This negative experience seems to heavily influence the low rating, making it an outlier compared to other reviews that may have had a more balanced evaluation of the hotel.\n- review2: While the reviewer acknowledges the classic ambiance of The Drake, they express disappointment in the quality of the food during their tea experience. This negative feedback on the food, especially the dry sandwiches and lukewarm cream, deviates from the typical expectations of a high-end hotel tea service.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: All the reviews in this cluster have high ratings and positive comments about the hotel. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_10"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(MEDIUM),{review3}(MEDIUM)\nreasons:\n- review2: This review focuses on a specific issue with double charges on the reviewer's credit card, which is not directly related to the quality of the high tea experience. While it is a valid concern, it deviates from the typical content of a review about the tea service itself.\n- review3: The reviewer provides a detailed description of the ambiance, decorations, and other aspects of the hotel, but doesn't focus as much on the tea service. The review also suggests that the price may not be worth it for the experience, which is not aligned with the typical positive reviews for high tea at The Drake Hotel.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_11"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews in this cluster have high ratings and positive comments about the hotel.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_12"
+    },
+    {
+        "output": "Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it describes a negative experience with the hotel's service during a wedding event. The reviewer highlights issues such as lack of assistance, no proper spot to hang a wedding dress, and grease stains on the gown due to a door hinge. The low rating and specific complaints make this review an outlier compared to the other positive reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_13"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review describes a negative experience of theft and lack of assistance from the hotel staff. The low rating and the specific incident mentioned make it an outlier compared to the other positive reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_14"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_15"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_16"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it provides a lower rating compared to the other reviews. The reviewer highlights several negative aspects of the hotel, including small and poorly designed rooms, poor construction, thin walls, and lackluster service. This negative feedback deviates from the generally positive tone of the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "51_17"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: The reviewer had a negative experience with the hotel, including noise disturbances, discomfort, and poor customer service. The low rating of 1.0 is consistent with the negative aspects mentioned in the review.\n- review3: The review focuses on the reviewer's personal experience of sweating excessively and having a fall in the hotel. While the review does mention some positive aspects of the hotel's staff and service, the overall tone and content of the review deviate from the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_18"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_19"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_20"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_21"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: Despite mentioning several negative aspects such as small rooms, unavailability of the booked luxury room, and a security incident resulting in the theft of personal belongings, the review still awards a low rating of 2.0. This is unusual because a 2-star rating typically implies a much lower level of satisfaction and a more negative experience. The discrepancy between the negative aspects mentioned and the relatively higher rating makes this review an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "51_22"
+    },
+    {
+        "output": "Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as an outlier because it describes a negative experience of theft during a wedding at the Drake Hotel. The review highlights a significant issue with the hotel's security and the lack of responsibility taken by the staff. This negative experience is inconsistent with the generally positive reviews of the hotel.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_23"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that are consistent with the content of the reviews. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_24"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_25"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(MEDIUM), {review3}(MEDIUM)\nreasons:\n- review2: The reviewer explicitly states that they did not stay at the hotel, so their review is based solely on the architecture, ambiance, and design of the space. This lack of personal experience staying at the hotel makes it an outlier in the cluster of reviews.\n- review3: While the reviewer acknowledges the beauty of the hotel's wood interior and the experience of tea time, they express disappointment with staying at the hotel. This negative sentiment towards the hotel's accommodations contrasts with the positive experiences described in the other reviews, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_26"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews in this cluster have consistent ratings and positive comments about the hotel's amenities, location, and staff.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_27"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it gives a low rating and provides specific negative feedback about the tea service at the Palm Court. The reviewer mentions uncomfortable seating, mediocre food, and lukewarm tea, which contrasts with the positive experiences described in the other reviews. This negative review deviates from the overall sentiment of the cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "51_28"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "51_29"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: The reviewer highlights multiple negative aspects of their stay, such as key card issues, lack of internet in the rooms, and expensive WiFi in the lobby. The low rating of 2.0 is consistent with these complaints. This review stands out as an outlier because it contrasts with the positive experiences typically associated with a rating of 4.0 or higher.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            }
+        ],
+        "ID": "51_30"
+    },
+    {
+        "output": "Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: This review describes a negative experience with a large insect in the bathroom and the hotel staff's denial and lack of action. The low rating of 1.0 is consistent with the negative experience. This review stands out as an outlier due to the extreme nature of the incident and the hotel's poor response.\n- review3: Although this review gives a rating of 3.0, it stands out as an outlier due to the reviewer's focus on the hotel's haunted reputation. The reviewer expresses discomfort with the idea of staying in a haunted hotel and mentions hearing strange noises in the room. This focus on paranormal activity deviates from the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "53_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review2: The reviewer expresses strong negative sentiments towards the hotel, describing it as overpriced, dirty, and uncomfortable. The low rating of 1.0 aligns with the negative review content, making it a clear outlier.\n- review3: The reviewer had a positive experience during their first stay but encountered issues during their return visit. The negative aspects mentioned, such as rude staff, ongoing strikes, and inconsistent service, are not in line with a positive rating of 1.0. This inconsistency makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(HIGH), {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review1: The reviewer highlights multiple negative aspects of their stay, including the condition of the furniture, lack of temperature control, expensive valet parking, and additional charges for internet usage. The low rating is consistent with these complaints.\n- review2: The reviewer expresses disappointment with the hotel, citing misleading website information, a tired lobby, a stale smoke smell, basic room amenities, poor views, and noise disturbances. The negative experience described aligns with the low rating given.\n- review3: The reviewer provides a brief but strong negative opinion, describing the hotel as a \"dump\" with dirty conditions and terrible service. The lack of specific details doesn't provide much context, but the strong negative sentiment is consistent with the low rating.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review provides a highly negative and critical assessment of the hotel, highlighting various shortcomings such as outdated rooms, average amenities, expensive parking, and poor customer service. The reviewer also mentions a personal negative experience with unauthorized charges on their credit card and the ongoing strike outside the hotel. This review stands out as an outlier due to its overwhelmingly negative tone and extensive list of complaints.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM), {review3}(MEDIUM)\nreasons:\n- review1: The reviewer mentions experiencing racism from the staff, which is a serious issue and not commonly mentioned in hotel reviews. This negative experience deviates from the typical criteria used in hotel reviews.\n- review3: The reviewer acknowledges that the hotel is not of high quality and the rooms are worn down. However, they still give a rating of 2 stars, which is higher than expected given the negative aspects mentioned. This inconsistency between the review content and rating makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_5"
+    },
+    {
+        "output": "Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: The reviewer expresses disappointment with the hotel's condition, mentioning a moldy smell, non-functioning air conditioner, locked safe, and obnoxious picketers. Despite these negative experiences, the review still awards a 2-star rating, which is inconsistent with the typical expectations for a hotel review.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(MEDIUM), {review3}(HIGH)\nreasons:\n- review2: Despite mentioning some negative aspects like the small size of the room and thin walls, the review still awards a relatively high rating. This is unusual because a 4-star rating typically implies a higher level of satisfaction and comfort, making this review inconsistent with the norm.\n- review3: The reviewer provides an extremely negative assessment of the hotel, highlighting various issues such as peeling paint, stained carpets, low water pressure, and unpleasant smells. The overall tone and severity of the complaints make this review an outlier compared to the other reviews in the cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(HIGH), {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review1: Despite mentioning some positive aspects like the high ceilings and location, the review overall describes a negative experience with overflowing toilets and unhelpful staff. This inconsistency between positive and negative elements makes it an outlier.\n- review2: The reviewer highlights multiple issues with the hotel, including the lack of heat, broken shower, and rude staff. These negative experiences align with the low rating, making it a typical review.\n- review3: The reviewer provides a detailed account of various problems with the room, such as the bathroom door hitting the front door, unsafe bathroom design, and leaks. These negative experiences are consistent with the low rating, making it a typical review.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_10"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(MEDIUM), {review3}(MEDIUM)\nreasons:\n- review2: This review provides a positive overall experience, highlighting the gorgeous views, friendly employees, and knowledgeable bellhops. However, it also mentions picketers outside the hotel, which could be seen as a negative aspect. The combination of positive and negative elements in this review makes it stand out from the others.\n- review3: The reviewer describes a series of issues with their room, including less-than-lukewarm water and frightening paintings on the wall. They also mention the ongoing strike outside the hotel. These negative experiences and the disappointment expressed in the review make it an outlier compared to the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_11"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(HIGH), {review2}(MEDIUM), {review3}(MEDIUM)\nreasons:\n- review1: This review uses extreme and offensive language to express dissatisfaction with the hotel. The tone and content of the review deviate significantly from the norm, making it an outlier.\n- review2: The reviewer uses a metaphorical comparison to describe the hotel, which is not a typical approach in hotel reviews. The focus on the hotel's appearance and the need for a makeover also deviates from the usual criteria used in reviews.\n- review3: Although the review expresses disappointment with the room size and location, it does not provide specific details or examples of poor service or amenities. This lack of specific criticism, along with the mention of the hotel's age and expectations of quaintness, makes it an outlier compared to other negative reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_12"
+    },
+    {
+        "output": "Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review2: The reviewer had a negative experience with the air conditioning unit and had valuable items stolen from their room. These are significant issues that greatly impact the quality of the stay, making this review an outlier.\n- review3: The reviewer had a negative experience with housekeeping entering their room despite having the \"Do Not Disturb\" sign displayed and had money stolen. This is a serious breach of security and trust, making this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "53_13"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(HIGH)\nreasons:\n- review1: Despite giving a 3-star rating, the review contains mostly positive comments about the hotel, including friendly staff, clean rooms, and convenient amenities. This positive sentiment contradicts the average rating and makes it an outlier.\n- review2: This review provides a highly negative experience of staying at the hotel, highlighting issues with check-in, elevator malfunction, poor quality of the room, lack of customer service, and additional charges for basic amenities. The low rating and extensive list of complaints make it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "53_14"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review2: This review provides an overwhelmingly positive and glowing description of the hotel, highlighting its location, views, interior, and amenities. The reviewer expresses a strong preference for this hotel over other options and recommends it without any negative aspects mentioned. This overly positive and one-sided perspective makes it an outlier.\n- review3: This review describes numerous issues and negative experiences, including dirty carpets, dark hallways, safety hazards, and the presence of bed bugs. The reviewer also recounts their dissatisfaction with the hotel's response and lack of concern. This negative and detailed account deviates significantly from the positive reviews typically found for hotels and makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_15"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(MEDIUM), {review2}(MEDIUM), {review3}(HIGH)\nreasons:\n- review1: Despite mentioning a perfect view and hot water, the overall rating is only 1 star. This inconsistency between positive aspects mentioned and the low rating makes it an outlier.\n- review2: The reviewer focuses on the experience of attending a holiday party at the hotel rather than reviewing the hotel itself. The review also includes negative comments about the furniture and food quality, which deviates from the typical criteria used in hotel reviews.\n- review3: The reviewer highlights multiple issues with the hotel, such as unpleasant smells, malfunctioning closet doors, and a lack of wireless internet. These negative aspects, combined with the low rating, make it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "53_16"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it provides a highly negative assessment of the hotel, contrasting with the other positive reviews. The reviewer mentions multiple issues with the hotel's appearance, staff, and amenities, which deviates from the overall positive sentiment expressed in the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "53_17"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that are consistent with the content of the review. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "53_18"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have a high rating score and positive content, which aligns with the norm for positive reviews of a restaurant. There are no outliers in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "195_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "195_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it provides a highly negative experience with the hotel's staff and overall service. The reviewer emphasizes the rude behavior of the front desk personnel and expresses dissatisfaction with the room quality. The low rating and strong negative sentiment make it an outlier in comparison to the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "28_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that align with their content and do not exhibit any unusual or inconsistent patterns.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "28_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: This review gives a very low rating and highlights multiple negative aspects of the hotel, such as rude front desk staff, freezing water, and a dingy room. The strong negative sentiment and specific complaints make it an outlier.\n- review3: Although this review doesn't give the lowest rating, it still expresses dissatisfaction with the hotel. The reviewer mentions the tacky appearance, small and dingy room, and undesirable view. While not as extreme as review2, it deviates from the norm of positive or neutral reviews typically found in hotel ratings.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "28_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review2: Despite mentioning several negative aspects like noise, strange smells, and cold water, the review still awards a low rating of 2 stars. This is unusual because a 2-star rating typically implies a much lower standard of quality and comfort, making this review inconsistent with the norm.\n- review3: The reviewer describes the rooms as \"cheaply decorated\" and expresses a sense of discomfort and concern about the possibility of bugs or murders. This extreme and negative perspective, along with the low rating, deviates from the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "28_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "28_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "28_6"
+    },
+    {
+        "output": "Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: This review gives a low rating despite describing positive aspects of the restaurant, such as the romantic ambiance and good wine. The negative comments about the service and food quality, particularly the calamari, are inconsistent with the overall positive experience described. This inconsistency makes it an outlier.\n- review3: This review provides an extensive and detailed account of the dining experience, including ratings for various aspects of the restaurant. However, the review focuses more on the concept of \"Secret Sups\" and the rating scale created by the reviewer, rather than providing a straightforward evaluation of the restaurant. This deviation from the typical format and content of a restaurant review makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(HIGH),{review3}(MEDIUM)\nreasons:\n- review1: Despite enjoying the food and feeling that it's worth the money, the reviewer expresses dissatisfaction with the service. This negative aspect of the dining experience is not reflected in the overall rating of 3 stars, making it an outlier.\n- review3: This review stands out because it is overwhelmingly positive compared to the other reviews. While the reviewer acknowledges some concerns about service and noise, they ultimately describe the experience as \"awesome\" and give it a 5-star rating. This overly positive sentiment makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it describes a negative experience with the restaurant's reservation system and customer service. The reviewer highlights the restaurant's failure to honor their reservation and the lack of sympathy from the host staff. This negative experience is inconsistent with the positive experiences described in the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it describes a negative experience with the restaurant's owner and the overall treatment received. The reviewer highlights the owner's attitude and inappropriate behavior, which is not in line with the typical positive experiences mentioned in other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "155_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review focuses on a specific incident regarding a cake-cutting fee, rather than providing an overall evaluation of the restaurant. The negative rating is based solely on this one issue, which is not representative of the entire dining experience. This makes it an outlier in comparison to the other reviews that provide a more comprehensive assessment.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: Although the overall rating is positive, the reviewer highlights several dishes that were not up to par, including the risotto and the ribs. This inconsistency between the overall positive rating and the specific criticisms makes it an outlier.\n- review3: The reviewer gives a positive rating but mentions that the salad assortment was not as good as expected. This discrepancy between the overall positive rating and the specific criticism of the salad assortment makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as an outlier because it provides a negative experience compared to the other positive reviews. The reviewer expresses disappointment with the service, lack of available options, and overall attention to detail. This contrasts with the generally positive feedback from other reviewers, making it an outlier in the cluster of reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review stands out as an outlier because it gives a low rating despite previously expressing enthusiasm and positive experiences in previous visits. The reviewer highlights a decline in service quality during their most recent visit, which contradicts their previous positive experiences. This inconsistency makes it an outlier in the cluster of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: All the reviews in this cluster have ratings that are consistent with the content of the reviews. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_10"
+    },
+    {
+        "output": "Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out from the others because it focuses heavily on the negative aspects of the dining experience, particularly the service and pasta dishes. While the reviewer acknowledges that the food was pretty good overall, the emphasis on the issues with service and pasta quality deviates from the generally positive tone of the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_11"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_12"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it describes a highly negative experience with the restaurant's service. The lack of attention from the staff, the absence of a waitperson, and the overall poor service quality make this review an outlier compared to the other positive reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_13"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out because it contradicts the rating score. Despite giving a rating of 3.0, the reviewer describes a positive experience with great food, excellent prices, and a more intimate atmosphere. This inconsistency between the rating and the content of the review makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_14"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_15"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM), {review3}(HIGH)\nreasons:\n- review1: Despite praising the exceptional food and attentive wait staff, the reviewer highlights two significant issues: the noise level and the poor value of the wine list. These negative aspects are not typically associated with a 4-star rating, making this review an outlier.\n- review3: The reviewer expresses disappointment with the sauces and expected a different flavor profile. This negative feedback, combined with the criticism of the restaurant's management during a busy night, deviates from the typical positive experience associated with a 3-star rating.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_16"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM),{review3}(MEDIUM)\nreasons:\n- review1: The reviewer mentions that the spaghetti was bland, which is a negative aspect of the dining experience. However, the overall rating of 3.0 suggests that the review is not entirely negative. This inconsistency between the negative comment and the average rating makes it an outlier.\n- review3: Despite mentioning that the food was delicious and the service was awesome, the reviewer also states that it took a long time to get their wine. This negative aspect, combined with the overall positive tone of the review, makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_17"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM),{review3}(MEDIUM)\nreasons:\n- review1: The reviewer expresses disappointment with the food and service, describing it as bland and average. However, the rating of 2.0 is relatively low compared to the content of the review, suggesting a potential outlier.\n- review3: The reviewer mentions consistently returning to the restaurant for the food but expresses frustration with a specific waiter who provides poor service. While the overall rating is positive, the negative experience with the waiter may make this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_18"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: The reviewer expresses disappointment with the service, specifically the long wait times and the waiter's behavior. However, despite these negative experiences, the review still awards a 3-star rating, which is inconsistent with the typical expectation of a lower rating for poor service.\n- review3: The reviewer highlights positive aspects of the restaurant, such as the lively atmosphere and flavorful bread. However, they also mention several negative aspects, including the lack of olive oil or butter for the bread and the small portion sizes. Despite these criticisms, the review still awards a 3-star rating, which is unusual given the mentioned drawbacks.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_19"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(HIGH),{review3}(HIGH)\nreasons:\n- review1: This review gives a very low rating and criticizes the restaurant's menu and categorization as an Italian restaurant. The negative tone and strong criticism make it an outlier compared to the other reviews, which generally have higher ratings and more positive comments.\n- review3: This review stands out because it describes Anteprima as one of the best meals ever, giving it a perfect rating. This high praise and the mention of ordering off a custom drink menu make it an outlier compared to the other reviews, which have more varied ratings and comments.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_20"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(MEDIUM), {review3}(MEDIUM)\nreasons:\n- review2: The reviewer focuses more on the ambiance and noise level of the restaurant rather than the quality of the food and service. The extensive description of a neighboring table's behavior and the impact it had on the reviewer's experience is not a typical criterion for evaluating a restaurant. This makes the review stand out from the others.\n- review3: The reviewer states that the restaurant was not their first choice and that they would not return soon due to various reasons like lack of valet service, noise level, and the presence of other good Italian spots. This negative sentiment and comparison to other restaurants make it an outlier compared to the other reviews that generally express positive experiences.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_21"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have a rating score of 4.0, which is consistent with the norm. There are no reviews that stand out as outliers based on the given criteria.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_22"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it gives a low rating despite praising the food quality. The main reason for the low rating is the excessive noise level, which is described as unbearable. This negative experience with the noise level deviates from the positive feedback about the food, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_23"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out from the others because it gives a low rating and expresses dissatisfaction with the portion sizes, taste, and value for money. The negative feedback contrasts with the positive experiences described in the other reviews, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "155_24"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_25"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(HIGH),{review2}(MEDIUM)\nreasons:\n- review1: The reviewer expresses dissatisfaction with the food, service, and ambiance of the restaurant, giving it a low rating of 2.0. This negative review stands out from the other reviews, which generally have higher ratings and more positive comments.\n- review2: While the reviewer acknowledges some positive aspects of the restaurant, they also mention that the food was only partially worth the price and that it didn't truly impress them. This mixed review, along with the lower rating of 3.0, makes it an outlier compared to the other reviews that have higher ratings and more positive feedback.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_26"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out from the others because it provides a positive and enthusiastic perspective on the food and service. While the other reviews mention various issues and criticisms, this review highlights the innovative, fresh, and delicious food, as well as the helpful waitstaff. This positive sentiment makes it an outlier in the cluster of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_27"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: All the reviews in this cluster have ratings that are consistent with the content of the review. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_28"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(HIGH),{review3}(MEDIUM)\nreasons:\n- review1: The reviewer had a negative experience with the seating arrangement and the unapologetic attitude of the host. They also mentioned that the food was just okay for the prices. However, the rating of 2.0 is relatively low compared to the content of the review, indicating a potential outlier.\n- review3: The reviewer had a generally positive experience, mentioning the warm service and fresh food. However, they also noted some flaws in the dishes, such as the ravioli needing more flavor and the octopus being slightly over-grilled. Despite these minor criticisms, the rating of 3.0 is relatively low compared to the overall positive tone of the review, suggesting a potential outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_29"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM),{review3}(MEDIUM)\nreasons:\n- review1: This review gives a 4-star rating but mentions several negative aspects, such as a loud and cramped space. This inconsistency between the rating and the negative comments makes it an outlier.\n- review3: Although this review gives a 4-star rating, it mentions a disappointment with the lemon and orange cakes. This negative comment about the desserts contradicts the overall positive rating, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_30"
+    },
+    {
+        "output": "Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM), {review2}(MEDIUM)\nreasons:\n- review1: The reviewer expresses mixed feelings about the restaurant, mentioning both positive and negative aspects. However, the 3-star rating does not align with the overall positive tone of the review. This inconsistency makes it an outlier.\n- review2: This review provides a highly positive experience of dining at the restaurant, praising various aspects such as the ambiance, service, and food. The 4-star rating seems lower than expected based on the reviewer's enthusiastic comments, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_31"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: All the reviews in this cluster have consistent ratings and positive comments about the food, service, and overall experience. There are no reviews that stand out as outliers based on their rating or content.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_32"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: This review stands out because it focuses more on the overall dining experience and personal anecdotes rather than providing detailed feedback on the food itself. The reviewer also mentions unrelated topics like a first date and dessert preferences, which deviates from the typical content of a restaurant review.\n- review3: The reviewer rates the food as above average but not amazing, which contradicts the high rating of 4.0. This inconsistency between the rating and the reviewer's description of the food makes it an outlier. Additionally, the reviewer mentions specific dishes that were not satisfying, further highlighting the discrepancy.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_33"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH),{review3}(MEDIUM)\nreasons:\n- review2: The reviewer mentions a consistency issue with the restaurant's food quality, giving it a lower rating compared to their previous visit. This deviation from the norm, along with the specific criticism of the food not meeting the value for the price, makes it an outlier.\n- review3: The reviewer highlights a negative experience with the server, describing them as rude and unhelpful. This negative encounter, along with the criticism of the food being just okay and the limited drink options, deviates from the typical positive dining experience and makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_34"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out from the others because it focuses more on the ambiance and atmosphere of the restaurant rather than the specific food items. While the review does mention the food being incredible, the emphasis on the rustic interior and the changing menu for foodie adventures makes it deviate from the typical criteria used in restaurant reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_35"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it provides a highly negative assessment of the service, food, and ambiance of the restaurant. The low rating of 1.0 is inconsistent with the other reviews, which generally have positive comments about the food and atmosphere.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_36"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out from the others due to its low rating and negative feedback about the customer service. While the other reviews praise the food and overall experience, this review highlights a disappointing encounter with the owner and a mistake in reservation policy. The negative tone and specific criticism make it an outlier in the cluster of positive reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_37"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(MEDIUM)\nreasons:\n- review1: This review stands out as an outlier because it provides a positive overall rating (4.0 stars) but includes several negative comments about the serving sizes being small and the value being low. These criticisms are inconsistent with the high rating given, making it an outlier.\n- review2: Although this review gives a positive rating (4.0 stars), it also mentions several areas for improvement, such as the lack of vegetables accompanying the halibut and the noise level in the restaurant. These negative aspects are not typically associated with a 4-star rating, making this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_38"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as an outlier because it gives a very low rating despite the positive experiences described in the other reviews. The reviewer focuses on a specific incident of disorganization and extended wait time, which may not be representative of the overall dining experience. This negative experience contrasts with the positive experiences described in the other reviews, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_39"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it is overwhelmingly positive compared to the other reviews in the cluster. The reviewer expresses extreme enthusiasm and love for the restaurant, highlighting multiple dishes and the overall dining experience. This high rating and glowing review contrast with the more critical and mixed feedback from other reviewers, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "155_40"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            }
+        ],
+        "ID": "155_41"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "29_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that are consistent with their content and do not exhibit any unusual or outlier characteristics.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "29_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(MEDIUM)\nreasons:\n- review2: This review stands out as it provides a positive overall rating but also mentions several negative aspects, such as soundproofing issues and the need to pay for internet. This inconsistency between the positive rating and the negative comments makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "29_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(MEDIUM), {review3}(HIGH)\nreasons:\n- review2: Despite praising the room and its amenities, the reviewer deducts half a star solely based on the hotel's location. This is unusual because the location is a subjective preference and not directly related to the quality of the hotel itself.\n- review3: The reviewer describes a terrible experience with housekeeping not attending to the room and sleeping on dirty sheets. This negative experience is inconsistent with the typical expectations of a 4-star hotel, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "29_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(MEDIUM)\nreasons:\n- review1: The reviewer expresses dissatisfaction with the hotel's room service and the inconvenience caused by a delayed breakfast. However, the overall rating of 2.0 is inconsistent with the relatively minor issue mentioned. Typically, a rating of 2.0 indicates a much more negative experience.\n- review2: The reviewer focuses on the hotel's location being far from downtown and the lack of a shuttle service back to the hotel. While these are valid concerns, the overall rating of 2.0 seems disproportionate to the mentioned negatives. Typically, a rating of 2.0 implies a much more negative experience.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "29_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as an outlier because it gives a low rating despite mentioning only one major issue - being given 2 double beds instead of a suite. The reviewer's disappointment and negative experience seem disproportionate to the problem described, making it inconsistent with the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "29_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM), {review3}(MEDIUM)\nreasons:\n- review1: Despite mentioning several positive aspects of the hotel, such as friendly staff and various amenities, the reviewer only gives it a 4-star rating. This is unusual because the review seems to indicate a high level of satisfaction, which would typically warrant a higher rating.\n- review3: The reviewer mentions that the food at the hotel is only \"ok\" and not worth the price paid. However, they still give a 3-star rating, which suggests a level of satisfaction that is inconsistent with their criticism of the food quality.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "29_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "29_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nThis review does not exhibit any outlier characteristics. It provides a balanced assessment of the hotel, mentioning both positive aspects (cleanliness, friendly staff, upgrade) and negative aspects (location, WiFi signal). The rating score of 3.0 aligns with the reviewer's mixed experience.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "29_9"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews have high ratings and positive comments about the food and service quality.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "179_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(MEDIUM)\nreasons:\n- review2: This review stands out from the others because it provides a more balanced perspective, highlighting both positive and negative aspects of the stay. While the reviewer mentions some drawbacks like noise and inconvenience during Cubs games, they also appreciate the location, staff, and nearby amenities. This mixed feedback makes it an outlier compared to the more extreme negative reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "57_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "19_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(HIGH),{review2}(HIGH)\nreasons:\n- review1: The reviewer describes multiple issues with the room, such as a used washcloth and napkin, a broken mirror, and a worn seal in the shower area. Despite these negative experiences, the review awards a low rating of 2.0, which is inconsistent with the severity of the issues mentioned.\n- review2: The reviewer highlights various problems encountered during their stay, including peeling paint, mold in the shower, a broken shower handle, and rude staff. These issues, combined with the allergic reaction to mold, would typically warrant a low rating. However, the review awards a rating of 1.0, indicating a potential outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "19_2"
+    },
+    {
+        "output": "Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "19_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(MEDIUM)\nreasons:\n- review3: This review does not provide any information or experience related to staying at the hotel. Instead, it focuses solely on the cookies provided by the hotel. This narrow focus and lack of relevant content make it an outlier in the cluster of hotel reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "19_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "19_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review highlights multiple negative experiences, including unhelpful staff, lack of a nice view, slow and expensive internet, unapologetic response from the person in charge, issues with room key, and difficulty with the showers. These negative experiences are inconsistent with the overall positive ratings given by other reviewers, making this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "19_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that are consistent with the content of the reviews. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "19_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "19_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "19_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nThis review does not exhibit any outlier characteristics. It provides a balanced assessment of the hotel, mentioning both positive and negative aspects. The rating score of 3.0 aligns with the content of the review, indicating a medium level of satisfaction.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "19_10"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_1"
+    },
+    {
+        "output": "Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it focuses heavily on the presence of children and their behavior, rather than providing a comprehensive evaluation of the hotel's amenities and services. The reviewer's negative experience with children and their impact on the atmosphere of the hotel is a specific and subjective concern that may not be representative of the typical guest experience.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(MEDIUM)\nreasons:\n- review3: This review focuses on a negative experience that is unrelated to the hotel itself. The reviewer describes an encounter with a rude staff member and confusion about the hotel's location. While these aspects may be valid concerns, they do not provide an accurate reflection of the hotel's amenities or service quality, making it an outlier in the cluster of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(MEDIUM)\nreasons:\n- review3: This review provides positive feedback about the hotel's employees and breakfast options. However, it also includes several complaints about parking, the exercise room, and the room layout. These negative aspects, combined with the overall rating of 3 stars, make this review an outlier within the cluster of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it provides a positive rating but lacks any specific details or commentary about the hotel itself. It only mentions the location and free wifi, without mentioning any other aspects of the hotel experience. This lack of information makes it an outlier compared to the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "16_10"
+    },
+    {
+        "output": "Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(HIGH), {review3}(MEDIUM)\nreasons:\n- review1: The reviewer expresses disappointment with the cleanliness of the hotel rooms, highlighting various issues such as dirty surfaces, stained carpet, and a dirty toilet. This negative experience contradicts the expectations of a luxury hotel and deviates from the norm of positive reviews for Starwood properties.\n- review3: The reviewer mentions multiple issues with the hotel, including a sauna-like room temperature, lack of water in the gym, malfunctioning exercise equipment, and rude staff at the front desk. These negative experiences contribute to the outlier status of the review, as they deviate from the typical expectations and standards of a hotel stay.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review expresses strong negative sentiment towards the hotel, citing a specific incident where the hotel failed to honor a reservation. The reviewer's frustration and use of strong language make it an outlier compared to the other reviews, which generally provide more balanced feedback.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review expresses strong dissatisfaction with the hotel, highlighting issues with charges and noise disturbances. The reviewer advises others to cancel their reservations and explicitly states their intention not to return. This negative sentiment and the recommendation to avoid the hotel make it an outlier in the cluster of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(HIGH), {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review1: The reviewer mentions several negative aspects of the hotel, such as lacking interiors and bathrooms, unclear instructions, and not receiving Starwood points. However, the rating of 2.0 is relatively high considering the mentioned issues, making it an outlier.\n- review2: Despite mentioning various negative aspects of the hotel, including noise, small rooms, and poor Wi-Fi, the reviewer states that the only positive aspect is the Westin Heavenly Bed. This positive comment contradicts the overall negative experience described, making it an outlier.\n- review3: The reviewer describes the rooms as the worst they have experienced in a Westin, with old bedding, small size, and poor sound insulation. However, they give a rating of 2.0, which is relatively high considering the negative experience described, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(MEDIUM)\nreasons:\n- review2: This review stands out as an outlier because it gives a low rating of 2 stars despite mentioning positive aspects like cleanliness, comfy rooms, and a great location. The negative points mentioned, such as the lack of free parking, free WIFI, and swimming pool, are common in many hotels, especially in downtown areas. The reviewer's expectation of these amenities in a high-priced hotel like the Westin is not aligned with the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(HIGH)\nreasons:\n- review1: This review provides overwhelmingly positive feedback about the hotel, praising its amenities, service, and location. However, the rating score of 4.0 is relatively low compared to the extremely positive content of the review. This inconsistency suggests that the reviewer may have had higher expectations or encountered some issues that were not explicitly mentioned.\n- review2: This review describes a negative experience, highlighting issues with room allocation, cleanliness, and service. The rating score of 1.0 aligns with the negative content of the review, indicating a low level of satisfaction.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_10"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_11"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(MEDIUM)\nreasons:\n- review1: This review stands out because it provides overwhelmingly positive feedback about the hotel, highlighting the big and modern rooms, cleanliness, comfortable beds, and pleasant cleaning services. However, the reviewer also mentions a few minor issues like the lack of pizzazz in the sheets and the need to pay for Wi-Fi. Despite these minor complaints, the reviewer still awards a 4-star rating, which is inconsistent with the typical expectations for a 4-star review.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_12"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM),{review3}(HIGH)\nreasons:\n- review1: The reviewer mentions high prices and minimums for plates, but still gives a rating of 3.0. This is unusual because typically, high prices and minimums would result in a lower rating. The inconsistency between the negative aspects mentioned and the rating given makes this review an outlier.\n- review3: The reviewer describes encountering mold in the bathroom and losing a valuable item, but still gives a rating of 2.0. This is unusual because these negative experiences would typically result in a lower rating. The inconsistency between the negative aspects mentioned and the rating given makes this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_13"
+    },
+    {
+        "output": "Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it gives a low rating despite being a frequent business traveler who is usually pleased with Westin properties. The reviewer highlights several negative aspects, such as long check-in lines, uncomfortable beds, and a crowded lobby due to a conference. This negative experience deviates from the typical positive feedback associated with Westin hotels.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "21_14"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it describes a highly negative experience with rude and unhelpful staff. The reviewer also mentions being accosted by security and followed around for a significant amount of time. This level of poor service and unpleasant encounter is not typical for a hotel of this caliber, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "21_15"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review gives a very low rating of 1.0 despite mentioning some positive aspects like helpful and friendly front desk personnel. The reviewer focuses on various negative aspects such as the small room, unpleasant smells, flickering lights, weird stains, loud AC, and valet parking experience. The overall negative tone and the discrepancy between the low rating and the positive comments make this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "8_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(MEDIUM)\nreasons:\n- review1: Despite mentioning some positive aspects like friendly staff, the overall tone of the review is negative. The reviewer highlights multiple issues such as a smoky smell, crowded lobby, non-functional ice machine, and lack of nearby dining options. The low rating of 2.0 is inconsistent with the positive elements mentioned, making it an outlier.\n- review2: The reviewer acknowledges the negative aspects of the hotel, including noise, ripped curtains, stains in the tub, and a questionable neighborhood. However, they also mention the friendly and helpful staff, which contrasts with the negative aspects. The 3-star rating given in this review is higher than expected based on the mentioned issues, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "8_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it gives a very negative rating score of 1.0, while the other reviews in the cluster have higher ratings. The reviewer describes the experience as the worst meal they've ever paid for and criticizes various aspects of the restaurant, including the lack of wine options, sloppy decor, and poor service. This extreme negative review deviates from the overall positive sentiment of the other reviews in the cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(MEDIUM)\nreasons:\n- review3: This review stands out from the others because it focuses on the negative aspects of the food and dining experience. While the reviewer acknowledges that the food wasn't bad, they also mention that it was nothing special and highlight specific issues with the dishes ordered. This negative perspective deviates from the overall positive tone of the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "123_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out from the others due to its length and highly detailed storytelling style. It goes into great depth about the history, atmosphere, and personal experiences at the cafe, which is not typical for a review. The extensive narrative and emotional attachment to the establishment make it an outlier in terms of content and style.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM), {review3}(HIGH)\nreasons:\n- review1: Despite mentioning positive aspects like a diverse menu and a nice job of offering something for all times of the day, the review only awards a 3-star rating. This is unusual because the positive comments suggest a higher rating would be expected.\n- review3: This review focuses on a negative experience with a specific dish (eggs benedict) and criticizes the quality of the crab cake and hollandaise sauce. The low rating of 1 star indicates a highly dissatisfied customer, making it an outlier in comparison to the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review gives a low rating and describes multiple negative aspects of the restaurant, such as poor service and disappointing food quality. However, it also mentions that the waitstaff is attractive and hustling, which contrasts with the overall negative tone of the review. This inconsistency makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that align with the content of the reviews. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "123_10"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews in this cluster have consistent ratings and positive comments about the place.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_11"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_12"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(MEDIUM)\nreasons:\n- review2: The reviewer focuses on the coffee aspect of the cafe rather than the overall experience. The criticism of serving coffee from NJ instead of Chicago and the choice of glass beer mugs for serving coffee deviates from the typical criteria used in cafe reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_13"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out from the others because it gives a low rating despite positive comments about the atmosphere and service. The negative focus on the chicken dish and the mention of cartilage make it an outlier compared to the other reviews, which generally have positive experiences with the food.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_14"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "123_15"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(MEDIUM)\nreasons:\n- review2: This review provides positive feedback about the diverse menu and reasonable prices at the cafe. However, the reviewer mentions that the beef sandwich was not as good as other famous spots in Chicago. This inconsistency between the positive overall rating and the specific criticism of the food quality makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "123_16"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: N/A",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_17"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_18"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out because it expresses disappointment with the food despite the positive aspects of the cafe's atmosphere, location, and service. The reviewer's critique of specific dishes and their dissatisfaction with the flavor combinations make this review inconsistent with the majority of positive reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_19"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: This review stands out because it mentions slight annoyance with the service, which is not typically associated with a 4-star rating. The reviewer also expresses surprise at the reasonable prices, suggesting that their expectations were initially low. This combination of positive and negative elements makes it an outlier.\n- review3: While the review mentions positive aspects like the ambiance and coffee, it focuses on the specific dish of Alaskan king crab, which is not a common feature in a typical brunch review. This specific mention deviates from the usual criteria used to evaluate a brunch experience, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_20"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: The reviewer's expectations of a wine bar ambiance are not met, as they describe the place as more of a coffee house/diner with a mixed crowd, including families and older individuals. This deviation from the typical wine bar atmosphere makes the review stand out as an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_21"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_22"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review provides mixed feedback about the food quality and noise level, but still awards a relatively high rating. The negative comments about the pork chops, pie, and noise, along with the suggestion to only order sandwiches, indicate a subpar dining experience. This inconsistency between the negative feedback and the high rating makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_23"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: All the reviews in this cluster have ratings that align with their positive comments and experiences. There are no outliers in this set of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "123_24"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that align with their positive comments and overall satisfaction with the restaurant. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "123_25"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews in this cluster have ratings that are consistent with the content of the reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "123_26"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_27"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "123_28"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "123_29"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "123_30"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(MEDIUM)\nreasons:\n- review1: This review gives a low rating of 2 stars and describes several negative aspects of the dining experience, including slow service and mediocre food. However, the reviewer mentions being surprised by the good reviews the place receives, indicating that their experience deviates from the norm.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "123_31"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "20_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "20_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "20_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: N/A\n\nAll the reviews in this cluster have ratings that are consistent with the content of the reviews. There are no outliers in this set.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "20_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "20_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "20_6"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "20_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "20_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "12_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review describes a series of inconveniences and poor experiences during the stay, including a strike, non-functional toilet, and lack of wireless internet access. The reviewer also highlights a specific incident where the hotel security failed to locate a lost item. Given the negative experiences and the low rating, this review stands out as an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            }
+        ],
+        "ID": "12_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nBoth review1 and review2 are consistent with the typical criteria used in food reviews. There are no unusual or extreme elements in these reviews that would classify them as outliers.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "175_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "60_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings consistent with their content and do not exhibit any unusual or outlier characteristics.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "60_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "60_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "60_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(HIGH)\nreasons:\n- review1: Despite mentioning several positive aspects of the location and amenities, the review only awards a 3-star rating. This is unusual because the content suggests a higher level of satisfaction, making this review inconsistent with the norm.\n- review2: The reviewer highlights significant issues with noise and air conditioning, which greatly impacted their sleep quality. These negative experiences are not reflected in the low rating of 2 stars, making this review inconsistent with the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            }
+        ],
+        "ID": "60_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: The reviewer had a negative experience with drilling noise during their sleep study, which directly affected their ability to sleep. This negative experience is inconsistent with the typical expectation of a sleep study facility, where a quiet and peaceful environment is crucial. The low rating reflects the dissatisfaction caused by the disruptive noise.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "66_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "66_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "66_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "66_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "66_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "66_6"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "66_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have a rating score of 4.0, which is consistent with the norm. There are no outliers in this set of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "48_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "48_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: The reviewer expresses frustration and disappointment with the hotel's business center, specifically mentioning false advertising. This negative experience stands out from the other reviews, which generally focus on positive aspects of the hotel.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "48_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM),{review3}(MEDIUM)\nreasons:\n- review1: This review gives a low rating and highlights issues with noise and an old bathroom. However, it does not provide any specific details or examples to support these claims. The lack of specific information makes it difficult to assess the credibility of the review and its outlier status.\n- review3: The reviewer expresses a strong negative bias towards the hotel and compares it unfavorably to other options. However, the review lacks specific details about the hotel's amenities or service quality, making it difficult to evaluate the credibility of the review and its outlier status.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "48_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as an outlier due to its extremely negative tone and multiple complaints about various aspects of the hotel, including the pool, breakfast, bathroom, pillows, and customer service. The low rating of 1.0 further emphasizes the dissatisfaction expressed in the review.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "48_5"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews in this cluster have consistent ratings and positive comments about the hotel.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "48_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "48_7"
+    },
+    {
+        "output": "Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have a rating score of 4.0, which is consistent with the norm. There are no outliers in this set of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "48_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM),{review3}(MEDIUM)\nreasons:\n- review1: Despite mentioning several negative aspects of the hotel, such as the dated decor, long wait times for elevators, and sad breakfast, the review only awards a 2-star rating. This is unusual because a 2-star rating typically implies a much lower level of satisfaction and comfort, making this review inconsistent with the norm.\n- review3: The reviewer compares their experience at this hotel to other hotels in Chicago and finds it exceedingly dismal. However, the review only awards a 2-star rating, which is relatively low considering the negative aspects mentioned. This inconsistency between the reviewer's experience and the rating given makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "48_9"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            }
+        ],
+        "ID": "48_10"
+    },
+    {
+        "output": "Outlier reviews ID: review2\nconfidence for outlier: {review2}(MEDIUM)\nreasons:\n- review2: The reviewer focuses on a specific interaction with the hotel staff rather than providing a comprehensive review of the hotel itself. The negative experience with the staff is not representative of the overall quality of the hotel, making this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "50_1"
+    },
+    {
+        "output": "Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it provides a highly negative experience with the hotel staff's treatment. The reviewer mentions disrespectful service, fraudulent activity on the credit card, miscommunication, and being locked out of the room. The overall tone and content of the review indicate a highly dissatisfied customer, making it an outlier in the cluster of positive reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "50_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: N/A\n\nAll the reviews in this cluster have high ratings and positive comments about the hotel. There are no outliers in this group as all the reviews align with the typical criteria used in hotel reviews, such as cleanliness, friendly staff, good amenities, and convenient location.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "50_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "50_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "50_5"
+    },
+    {
+        "output": "Outlier reviews ID: review1\nconfidence for outlier: {review1}(MEDIUM)\nreasons:\n- review1: Despite mentioning some positive aspects like the location and friendly staff, the review primarily focuses on numerous negative experiences and issues with the room. This negative tone and the extensive list of problems make it an outlier compared to the other reviews, which generally have a more positive or balanced perspective.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "50_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nBoth review1 and review2 are consistent with the typical criteria used in hotel reviews. They highlight positive aspects such as location, cleanliness, comfort, and friendly staff. There are no unusual or contradictory elements in these reviews, making them consistent with the cluster of reviews.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "50_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have a high rating score and positive comments about the food. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "172_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "65_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "65_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review highlights several negative aspects of the hotel, such as the broken AC, unhelpful staff, and lack of compensation for the inconvenience. The low rating of 1.0 indicates a highly dissatisfied experience, making it an outlier in the cluster of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "65_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "65_4"
+    },
+    {
+        "output": "There are no outlier reviews in the given list.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "65_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it describes a negative experience with the staff, specifically mentioning their rudeness and lack of attentiveness. The low rating of 1.0 further emphasizes the dissatisfaction with the service. This review deviates from the positive experiences described in the other reviews, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "4_1"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster. All the reviews in this cluster have consistent ratings and provide relevant information about the hotel's amenities, location, and service quality.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "4_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "4_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(MEDIUM)\nreasons:\n- review1: The content of this review is focused on a specific incident involving sound issues and a bathroom incident, rather than providing a comprehensive evaluation of the hotel. This narrow focus and the mention of a personal dispute with another individual make it an outlier in terms of typical hotel reviews.\n- review2: While the reviewer acknowledges that the room and facilities were fine, the main complaint is about the noise and party atmosphere in the lobby. This negative experience, which is not directly related to the quality of the hotel itself, deviates from the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "18_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: This review uses abstract and poetic language to describe the hotel, which is different from the typical criteria used in hotel reviews. The focus on ambiance and atmosphere rather than specific features or services makes it stand out from the cluster.\n- review3: The review is written in a unique and creative format, using a series of short phrases to describe the hotel experience. This unconventional style deviates from the standard format of hotel reviews, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "18_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(HIGH),{review2}(HIGH)\nreasons:\n- review1: The reviewer describes multiple negative aspects of their stay, including rude staff, loud air conditioning, and damage to their car by the valet service. Despite these negative experiences, the review gives a rating of 1.0, which is inconsistent with the level of dissatisfaction expressed in the review.\n- review2: The reviewer expresses strong dissatisfaction with the hotel, stating that they can't say one good thing about it. They criticize the staff, the quality of the rooms, and the overall effort put into the hotel. Despite this negative review, the rating given is 1.0, indicating a discrepancy between the content of the review and the rating.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "18_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "18_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "18_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: The reviewer expresses frustration and disappointment with the hotel's policy regarding check-in, specifically mentioning a hidden stipulation that was not disclosed during the reservation process. This negative experience is inconsistent with the typical criteria used in hotel reviews, making it an outlier.\n- review3: The reviewer highlights several aspects of the hotel that they found unsatisfactory, such as the low bed, small bathroom, lack of alarm clock, and water heater issues. These negative experiences, combined with the reviewer's preference for more comfort when staying away from home, deviate from the typical expectations and criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "18_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(MEDIUM), {review3}(HIGH)\nreasons:\n- review2: The reviewer acknowledges the great aesthetics of the hotel but criticizes the infrastructure and aging building. However, the rating of 3.0 is inconsistent with the negative aspects mentioned. Typically, a rating of 3.0 implies an average experience, but this review highlights significant flaws, making it an outlier.\n- review3: The reviewer mentions that the only highlight of the hotel is the food, and criticizes the rooms for being unfinished and dirty. The rating of 1.0 is consistent with the negative experience described, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "18_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "18_8"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: The reviewer lists multiple negative experiences and complaints about the hotel, including issues with breakfast, phone, shower, gym, hairdryer, staff, and kitchen. Despite these complaints, the review only awards a rating of 2.0, which is inconsistent with the severity of the issues mentioned. This discrepancy makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "9_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "9_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "9_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: The reviewer expresses dissatisfaction with multiple aspects of their stay, including the lack of hot water, non-functional TV, and rude front desk service. Despite these negative experiences, the review still awards a 3-star rating, which is inconsistent with the level of dissatisfaction expressed.\n- review3: The reviewer initially had a positive impression during their wedding party stay but later updates the review to express disappointment with the TV not receiving NBC and other issues like the U-shaped bed, grainy TV, and loud refrigerator. The low rating of 1 star is inconsistent with the initial positive experience and suggests a significant decline in satisfaction.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "9_4"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "9_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(HIGH), {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review1: The reviewer highlights numerous defects and issues with the hotel, such as broken amenities, lack of cleanliness, and poor customer service. These negative aspects are consistent with a low rating, making this review an outlier due to the low rating despite the extensive list of problems.\n- review2: Although the reviewer did not personally stay at the hotel, they provide a detailed description of the room and pool based on their in-laws' experience. The review emphasizes the poor quality of the room and the dirty condition of the pool. This negative portrayal aligns with a low rating, making it an outlier.\n- review3: The reviewer describes multiple severe issues with the hotel, including water damage, cleanliness problems, cigarette smoke in a non-smoking room, and unhelpful staff. These significant complaints are in line with a low rating, making this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "69_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(MEDIUM)\nreasons:\n- review3: The reviewer focuses on the presence of old men trying to pick up women at the bar area, which is not directly related to the hotel itself. Additionally, the review mentions having lunch or dinner with friends and potentially taking women to the motel area, which deviates from the typical criteria used in hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "69_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out as it focuses on the conference rooms and training experience rather than the overall hotel stay. It provides positive feedback on the conference rooms, staff, and amenities, but does not mention the quality of the hotel rooms or other aspects typically considered in hotel reviews. This deviation from the norm makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "69_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nThis review does not meet the criteria for being an outlier. It provides a personal experience and reasoning for the rating, which is consistent with typical hotel reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "69_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(HIGH),{review2}(HIGH)\nreasons:\n- review1: Despite mentioning a great location, the review overall expresses dissatisfaction with the hotel. The negative comments about the expensive price, lack of windows, ugly furniture, and unhappy workers make this review inconsistent with the typical expectations for a 2-star rating.\n- review2: This review strongly discourages staying at the hotel, emphasizing the bad front desk staff and poor room quality. The comparison to hostel rooms and the suggestion to stay on the street indicate a highly negative experience, which is not aligned with a 1-star rating.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "11_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(MEDIUM), {review2}(MEDIUM), {review3}(MEDIUM)\nreasons:\n- review1: Despite mentioning several negative aspects of the hotel, such as small rooms, lack of cleanliness, and poor service, the review only gives a rating of 1.0. This low rating is inconsistent with the mentioned issues and suggests a higher level of dissatisfaction than expected.\n- review2: The review highlights various negative aspects of the hotel, including outdated amenities, uncomfortable beds, and slow elevators. However, the rating of 2.0 is relatively higher than what would typically be expected for such criticisms, indicating a potential outlier.\n- review3: The reviewer expresses disappointment with multiple issues, such as a leaking toilet, non-functional lights, uncomfortable beds, and a poor view. Despite these complaints, the rating of 2.0 is relatively higher than expected, suggesting a potential outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "11_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(HIGH)\nreasons:\n- review2: The reviewer uses strong language and negative imagery to describe the hotel, suggesting a highly negative experience. This is inconsistent with the average rating of 2.0, which implies a below-average but not extremely negative experience. The extreme language and low rating make this review an outlier.\n- review3: Despite mentioning an ideal location, the reviewer highlights several major issues with the hotel, including a dirty bathroom and poor customer service. These issues are significant and would typically result in a lower rating than 1.0. The discrepancy between the severity of the problems and the low rating makes this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "11_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review gives a very low rating and describes the hotel as \"completely awful\" and \"disgusting.\" The reviewer also mentions rude staff and feeling like they were in trouble when talking to them. This negative experience and strong language make it an outlier compared to the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "11_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(MEDIUM), {review2}(MEDIUM), {review3}(HIGH)\nreasons:\n- review1: Despite mentioning several negative aspects of the hotel, such as slow elevators, uncomfortable beds, and poor customer service, the review only awards a 2-star rating. This is unusual because a 2-star rating typically implies a much lower level of satisfaction and comfort, making this review inconsistent with the norm.\n- review2: The reviewer expresses disappointment with the hotel's check-in process, staff attitude, and room quality. However, the review only awards a 2-star rating, which is higher than expected given the negative experiences described. This inconsistency makes it an outlier.\n- review3: The reviewer provides a detailed account of multiple issues with the hotel, including unpleasant odors, poor cleanliness, and mold-related health concerns. Despite these severe problems, the review only awards a 1-star rating. This rating is lower than expected given the extent of the negative experiences described, making this review an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "11_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: N/A\n\nAll the reviews in this cluster have ratings that align with their content and provide relevant information about the hotel. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "11_6"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review highlights several negative aspects of the hotel, such as malfunctioning elevators, outdated furnishings, and lack of basic amenities. Despite these criticisms, the review only awards a 2-star rating, which is inconsistent with the severity of the issues mentioned. This discrepancy makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "11_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "176_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "176_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(HIGH)\nreasons:\n- review1: The reviewer mentions being roped into a pop trivia game, which is not a typical aspect of a restaurant review. Additionally, the comment about losing the game is unrelated to the food quality. This deviation from the standard criteria for evaluating a restaurant makes it an outlier.\n- review2: The reviewer focuses on their experience of drinking alone and studying at the restaurant, rather than commenting on the food or service. This unconventional perspective and the lack of direct commentary on the restaurant's offerings make it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "197_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nBoth reviews seem to be consistent with the overall positive sentiment and rating score. There are no indications of outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "185_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that are consistent with the content of the review. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "67_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM), {review3}(MEDIUM)\nreasons:\n- review1: The reviewer mentions encountering rude staff at the front desk multiple times, which is a negative experience. However, the rating of 2.0 is relatively low compared to the severity of the issue described. This inconsistency between the negative experience and the rating given makes it an outlier.\n- review3: The reviewer complains about rude attendants who switch languages during the conversation. While this is a negative experience, the rating of 2.0 is relatively low compared to the severity of the issue described. This inconsistency between the negative experience and the rating given makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "67_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review describes a highly negative and unsafe experience, including encounters with a prostitute, a sour smell, and a sense of danger. The low rating of 1.0 is consistent with the negative content.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "67_3"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            }
+        ],
+        "ID": "67_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(HIGH), {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review1: The review does not provide any information about the hotel itself, but instead directs the reader to watch a video. This lack of relevant content and redirection to external sources makes it an outlier.\n- review2: Similar to the previous review, this review does not provide any personal experience or commentary about the hotel. Instead, it offers advice on finding alternative accommodations. This deviation from the typical content of a hotel review makes it an outlier.\n- review3: The content of this review is highly unusual, expressing a desire for a negative and extreme personal event rather than commenting on the hotel itself. This extreme and non-standard content makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "0_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review provides mixed feedback on the food quality and pricing. While the reviewer praises some dishes like the crawfish and fried chicken, they also criticize the scallops in bacon and shrimp fried rice. The inconsistent evaluation of different dishes and the mention of high prices for certain items make this review stand out from the others.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "180_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "15_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "15_2"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": -1
+            }
+        ],
+        "ID": "15_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "196_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out from the others because it provides a mixed rating for different dishes and criticizes the quality of certain curries. The negative comments about the decor and the presence of flies also deviate from the overall positive tone of the other reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "181_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(HIGH), {review3}(MEDIUM)\nreasons:\n- review2: This review provides a detailed description of the food and its taste, but it also mentions that the oil used in the dishes was heavy. Despite this, the review still awards a high rating. This inconsistency between the negative aspect mentioned and the high rating makes it an outlier.\n- review3: The reviewer mentions that they did not like the service or the setup of the restaurant, but still gives it a 3-star rating. This inconsistency between the negative aspects mentioned and the rating given makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "181_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have a rating score of 4.0, which is consistent with the norm. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "181_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "192_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "14_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2, review3\nconfidence for outlier: {review1}(MEDIUM), {review2}(MEDIUM), {review3}(HIGH)\nreasons:\n- review1: Despite mentioning several negative aspects of the hotel, such as the bare-boned rooms, uncomfortable bed, and overpriced coffee, the review only awards a 2-star rating. This is unusual because a 2-star rating typically implies a much lower level of satisfaction and comfort, making this review inconsistent with the norm.\n- review2: The reviewer focuses heavily on the technical issues with the internet connection and the limitations imposed by the hotel. This specific focus on technical aspects, rather than the overall experience or amenities, deviates from the typical criteria used in hotel reviews.\n- review3: The reviewer describes a series of negative experiences, including the hotel being located in a not-so-nice part of town, a broken door that took a long time to fix, and a negative impact on their sleep and work performance. Despite these negative experiences, the review only awards a 1-star rating. This is unusual because a 1-star rating typically implies a much higher level of dissatisfaction and disappointment, making this review inconsistent with the norm.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "14_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "14_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that are consistent with their content and do not exhibit any unusual or outlier characteristics.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "14_4"
+    },
+    {
+        "output": "A: There are no outlier reviews in the given list.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "200_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as it gives a low rating despite mentioning only one negative aspect, which is the slow service for orange juice. The reviewer's strong negative reaction to this minor inconvenience, along with the criticism of the wait staff and the loud music, makes this review an outlier compared to the other positive reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "30_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2, review3\nconfidence for outlier: {review2}(MEDIUM), {review3}(HIGH)\nreasons:\n- review2: This review stands out because it focuses more on the location and amenities outside of the hotel, such as nearby attractions and parking options, rather than providing detailed feedback on the hotel itself. This deviation from the typical content of a hotel review makes it an outlier.\n- review3: The reviewer mentions that the location and price were good, but the review primarily focuses on negative aspects like small and dated rooms, lack of soundproofing, and difficulties during check-in. This negative perspective deviates from the norm and makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "30_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review3\nconfidence for outlier: {review1}(MEDIUM),{review3}(MEDIUM)\nreasons:\n- review1: Despite mentioning several negative aspects such as small rooms, thin walls, slow wifi, and a bad restaurant, the review only awards a 2-star rating. This is unusual because a 2-star rating typically implies a much lower level of satisfaction and comfort, making this review inconsistent with the norm.\n- review3: The reviewer mentions several negative aspects such as outdated decor, unclean pool, creepy staircase, high parking charges, and noise issues. However, the review only awards a 2-star rating. This is unusual because a 2-star rating typically implies a much lower level of satisfaction and comfort, making this review inconsistent with the norm.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": -1
+            }
+        ],
+        "ID": "30_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(HIGH),{review2}(MEDIUM)\nreasons:\n- review1: The reviewer expresses frustration with the customer service, specifically mentioning difficulties in reaching a live person and being transferred to voicemail multiple times. This negative experience is inconsistent with the typical level of customer service expected from a hotel, making it an outlier.\n- review2: The reviewer highlights several issues with housekeeping, including dusty fixtures, dirty glasses, and uncleaned rooms. These cleanliness concerns are significant and deviate from the expected standard of a hotel, making it an outlier.",
+        "ground_truth": [
+            {
+                "1": -1
+            },
+            {
+                "2": -1
+            }
+        ],
+        "ID": "70_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(MEDIUM)\nreasons:\n- review1: The reviewer mentions that they love the bread to meat ratio, but this is not a typical criterion for evaluating a sandwich. Most people would focus on the taste, quality, and overall experience of the sandwich rather than the specific ratio of ingredients.\n- review2: The reviewer emphasizes aspects like the cleanliness of the place, availability of a clean bathroom, and the deal on bread, rather than focusing on the taste and quality of the sandwich. This deviation from the typical criteria used in sandwich reviews makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "191_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": -1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "5_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "5_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "5_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "5_4"
+    },
+    {
+        "output": "A: Outlier reviews ID: review3\nconfidence for outlier: {review3}(HIGH)\nreasons:\n- review3: This review stands out as an outlier due to its extremely negative rating score of 1.0, while the other reviews in the cluster have ratings of 4.0. The reviewer highlights multiple issues with the hotel, including a delayed check-in, uncomfortable bed, old furniture, noise disturbances, and expensive internet. The overall negative tone and dissatisfaction expressed in this review make it an outlier compared to the other reviews in the cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "5_5"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have ratings that are consistent with the content of the reviews. There are no outliers in this case.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "5_6"
+    },
+    {
+        "output": "There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "5_7"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(HIGH)\nreasons:\n- review1: The reviewer mentions several positive aspects of the restaurant, such as affordable breakfast and dinner options, complimentary soup, and a vegetarian menu. However, the rating of 4 stars is considered medium for a review that highlights so many positive aspects. Typically, a higher rating would be expected for such positive experiences.\n- review2: The reviewer expresses high satisfaction with the restaurant, praising the specials, quick service, complimentary soup, and various dishes tried. The overall positive tone and the rating of 5 stars make this review an outlier in terms of its high confidence.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "190_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "177_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1\nconfidence for outlier: {review1}(HIGH)\nreasons:\n- review1: This review describes multiple negative aspects of the hotel, including disgusting rooms, uneven carpet, uncomfortable beds, roaches, messy bathrooms, and unpleasant smells. The low rating of 1.0 aligns with these negative experiences.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "71_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: All the reviews in this cluster have consistent ratings and positive comments about the food, service, and value for money. There are no reviews that deviate significantly from the norm or raise any red flags.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "189_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "189_2"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "189_3"
+    },
+    {
+        "output": "A: Outlier reviews ID: review1, review2\nconfidence for outlier: {review1}(MEDIUM),{review2}(LOW)\nreasons:\n- review1: The reviewer starts with a positive quote and compliments the staff's quickness and friendliness. However, they then mention lines and a repetitive greeting, which suggests a less positive experience. The mixed feedback and the mention of the food being just okay make this review inconsistent with the typical expectations for a 3-star rating.\n- review2: The reviewer acknowledges that it's Taco Bell with higher prices but highlights the employees' behavior as the standout feature. They mention the employees being overly chipper and obnoxious, which is not the typical expectation for a positive dining experience. This review deviates from the norm and is therefore an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "188_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nAll the reviews in this cluster have a rating score of 5.0, which indicates a high level of satisfaction. There are no outliers in this cluster as all the reviews align with the positive rating.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "194_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "198_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: review2\nconfidence for outlier: {review2}(HIGH)\nreasons:\n- review2: This review stands out because it gives a low rating despite describing a positive experience at the grand opening party. The reviewer focuses on a negative encounter with a specific individual, which may not be representative of the overall experience at the establishment. This inconsistency between the positive event and the negative rating makes it an outlier.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            },
+            {
+                "3": 1
+            }
+        ],
+        "ID": "193_1"
+    },
+    {
+        "output": "A: There are no outliers in this review.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "173_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None\n\nBoth reviews seem to be consistent with the overall positive sentiment and focus on the quality and affordability of the seafood at Rubino's. There are no indications of any outliers in this cluster of reviews.",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "199_1"
+    },
+    {
+        "output": "A: Outlier reviews ID: None\nconfidence for outlier: None\nreasons: None",
+        "ground_truth": [
+            {
+                "1": 1
+            },
+            {
+                "2": 1
+            }
+        ],
+        "ID": "184_1"
+    },
+    {
+        "output": "A: There are no outlier reviews in this cluster.",
+        "ground_truth": [
+            {
+                "1": 1
+            }
+        ],
+        "ID": "186_1"
+    }
+]

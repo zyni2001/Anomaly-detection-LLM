@@ -1,0 +1,14 @@
+TP: 2671
+FP: 0
+TN: 15711
+FN: 0
+
+pr_thresholds: 0.0000      precisions: 0.1453      recalls: 1.0000    
+pr_thresholds: 1.0000      precisions: 1.0000      recalls: 1.0000    
+average_precision_score: 1.0000
+
+roc_thresholds: inf         fpr: 0.0000      tpr: 0.0000    
+roc_thresholds: 1.0000      fpr: 0.0000      tpr: 1.0000    
+roc_thresholds: 0.0000      fpr: 1.0000      tpr: 1.0000    
+roc_auc_score: 1.0000
+
