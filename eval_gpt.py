@@ -7,13 +7,18 @@ from matplotlib import pyplot as plt
 import argparse
 
 
-def get_confidence(input_str, review_id):
+def get_confidence(input_str, review_id, model_name):
     # Only the part of the string after "confidence for outlier"
     start_index = input_str.find("confidence for outlier:")
     relevant_part = input_str[start_index:]
 
     pattern = f"review{review_id}"
-    regex = r"\{" + pattern + r"\}\((.*?)\)"
+    if model_name == 'gpt':
+        regex = r"\{" + pattern + r"\}\((.*?)\)"
+    elif model_name == 'gpt_scale_up':
+        regex = pattern + r"\((.*?)\)"
+    else:
+        raise ValueError(f'Invalid model name: {model_name}')
 
     # "Confidence for outlier part", note index is 0 not 1.
     line = relevant_part.split("\n")[0]
@@ -24,7 +29,7 @@ def get_confidence(input_str, review_id):
         return confidence
 
 
-def count_data(file_path, medium_type):
+def count_data(file_path, medium_type, model_name):
     """_summary_
 
     Args:
@@ -43,7 +48,7 @@ def count_data(file_path, medium_type):
     ground_truth_probs = []
     
     # Outlier Types
-    outlier_types = ["HIGH"] + ["MEDIUM"] if medium_type else ["HIGH"]
+    outlier_types = ["HIGH"] + ["MEDIUM"] + ["LOW"] if medium_type else ["HIGH"]
     outlier_confidence_scores_type = [0.9, 0.6, 0.3]
 
     with open(file_path, "r") as file:
@@ -64,7 +69,7 @@ def count_data(file_path, medium_type):
                 ground_truths += [0 if list(gt.values())[0] == 1 else 1 for gt in ground_truth]
 
                 for i in range(1, len(ground_truth)+1):
-                    confidence = get_confidence(output, i)
+                    confidence = get_confidence(output, i, model_name)
                     if confidence == "HIGH":
                         outlier_confidence_score = outlier_confidence_scores_type[0]
                     elif confidence == "MEDIUM":
@@ -108,7 +113,12 @@ def main(args):
 
     model_name = args.model
 
-    file_paths = [f'output_{model_name}.json', f'output_{model_name}2.json', f'output_{model_name}3.json']
+    if model_name == 'gpt':
+        file_paths = [f'output_{model_name}.json', f'output_{model_name}2.json', f'output_{model_name}3.json']
+    elif model_name == 'gpt_scale_up':
+        file_paths = [f'output_{model_name}.json']
+    else:
+        raise ValueError(f'Invalid model name: {model_name}')
     llm_output_path = './llm_output'
     file_paths = [os.path.join(llm_output_path, file_path) for file_path in file_paths]
 
@@ -120,7 +130,7 @@ def main(args):
     ground_truth_probs = []
 
     for file_path in file_paths:
-        total_reviews, total_outliers, detected_outliers, correct_predictions, truths, probs = count_data(file_path, args.medium_type)
+        total_reviews, total_outliers, detected_outliers, correct_predictions, truths, probs = count_data(file_path, args.medium_type, args.model)
         total_reviews_count += total_reviews
         total_outliers_count += total_outliers
         detected_outliers_count += detected_outliers
@@ -167,7 +177,7 @@ def main(args):
     # Precision-Recall Curve
     plt.subplot(1, 2, 1)
     plt.plot(recalls, precisions, color='blue', label=f'P-R Curve (AP = {ap_score:.4f})')
-    plt.scatter(recalls, precisions, c=pr_thresholds)
+    # plt.scatter(recalls, precisions, c=pr_thresholds)
     # plt.colorbar(label='P-R Threshold')
     # annotate thresholds text above the points
     for i, value in enumerate(pr_thresholds):
@@ -208,8 +218,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='LLMs for Anomaly Detection Evaluation')
-    parser.add_argument('--model', default='gpt', type=str, help='Model name') # 'gpt', 'llama'
-    parser.add_argument('--medium_type', default=False, type=bool, help='Evaluation metric') # True if MEDIUM as an outlier
+    parser.add_argument('--model', default='gpt_scale_up', type=str, help='Model name') # 'gpt', 'gpt_scale_up'
+    parser.add_argument('--medium_type', default=True, type=bool, help='Evaluation metric') # True if MEDIUM as an outlier
 
     args = parser.parse_args()
 
