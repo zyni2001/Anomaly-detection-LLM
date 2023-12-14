@@ -218,7 +218,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='LLMs for Anomaly Detection Evaluation')
-    parser.add_argument('--model', default='gpt_scale_up', type=str, help='Model name') # 'gpt', 'gpt_scale_up'
+    parser.add_argument('--model', default='gpt', type=str, help='Model name') # 'gpt', 'gpt_scale_up'
     parser.add_argument('--medium_type', default=True, type=bool, help='Evaluation metric') # True if MEDIUM as an outlier
 
     args = parser.parse_args()
